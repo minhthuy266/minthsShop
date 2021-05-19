@@ -1,0 +1,3 @@
+[submodule "MyShopMERN"]
+	path = MyShopMERN
+	url = https://github.com/minth266/MyShopMERN.git

@@ -1,0 +1,70 @@
+.header-page {
+  height: 80px;
+  padding: 0 3rem;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 80px;
+  background: #001529;
+}
+
+.main-content {
+  min-height: 80vh;
+  padding: 0 3rem;
+  margin: auto;
+  margin-bottom: 8rem;
+}
+
+.section-title {
+  padding: 4rem 0;
+  font-weight: 500;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.arrow-icon {
+  vertical-align: baseline;
+}
+
+.button-back {
+  padding: 1rem 0;
+}
+
+.ant-avatar.ant-avatar-square.ant-avatar-image {
+  width: 10rem;
+  height: 10rem;
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 64em) {
+  .ant-avatar.ant-avatar-square.ant-avatar-image {
+    width: 13rem;
+    height: 13rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 46.25em) {
+  .ant-avatar.ant-avatar-square.ant-avatar-image {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+.item-name a {
+  color: #242425;
+  font-weight: 500;
+}
+
+/* Mobile & Tablet */
+/* @media (max-width: 1023px) {
+  body {
+    font-size: 95%;
+  }
+} */
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+}

@@ -1,0 +1,16 @@
+.contactless-option img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.contactless-option__description {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.emphasize-text {
+  color: #cc0000;
+  font-weight: 600;
+}

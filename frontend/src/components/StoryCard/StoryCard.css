@@ -1,0 +1,13 @@
+.story-card {
+  margin-bottom: 4rem;
+}
+
+.story-card__picture {
+  width: 100%;
+  padding: 2rem;
+}
+
+.story-card__picture img {
+  display: block;
+  width: 100%;
+}

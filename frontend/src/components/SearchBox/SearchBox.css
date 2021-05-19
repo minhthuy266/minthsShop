@@ -1,0 +1,31 @@
+.ant-input-affix-wrapper.search-box input {
+  padding-left: 1rem;
+}
+
+.ant-input-affix-wrapper.search-box {
+  border-radius: 15px;
+}
+
+.ant-input-affix-wrapper.search-box:hover {
+  border-color: transparent;
+}
+
+.ant-input-affix-wrapper.search-box:focus {
+  border-color: transparent;
+}
+
+.search-icon {
+  color: white;
+}
+
+@media (min-width: 740px) and (max-width: 1200px) {
+  .search-box {
+    width: 80%;
+  }
+}
+
+@media (max-width: 739px) {
+  .search-box {
+    width: 100%;
+  }
+}

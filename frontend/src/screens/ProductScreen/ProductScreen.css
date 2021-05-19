@@ -1,0 +1,15 @@
+.flex-box {
+  display: flex;
+}
+
+.info-product {
+  width: 50%;
+}
+
+.title {
+  font-size: 2.6rem;
+}
+
+.center {
+  margin-top: 2rem;
+}
