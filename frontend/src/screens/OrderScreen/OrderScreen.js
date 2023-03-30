@@ -1,5 +1,4 @@
 import { Avatar, Card, Col, Divider, Row } from "antd";
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { PayPalButton } from "react-paypal-button-v2";
 import { useDispatch, useSelector } from "react-redux";
@@ -10,6 +9,7 @@ import ButtonBack from "../../components/UI Handler/ButtonHandler/ButtonBack";
 import { Loader } from "../../components/UI Handler/Loader/Loader";
 import { Message } from "../../components/UI Handler/Message/Message";
 import { ORDER_PAY_RESET } from "../../constants/orderConstants";
+import { axiosClient } from "../../utils/axiosClient";
 
 const OrderScreen = ({ match }) => {
   const orderId = match.params.id;
@@ -38,7 +38,7 @@ const OrderScreen = ({ match }) => {
 
   useEffect(() => {
     const addPayPalScript = async () => {
-      const { data: clientId } = await axiosClientget("/api/config/paypal");
+      const { data: clientId } = await axiosClient.get("/api/config/paypal");
       const script = document.createElement("script");
       script.type = "text/javascript";
       script.src = `https://www.paypal.com/sdk/js?client-id=${clientId}`;
