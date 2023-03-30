@@ -11,6 +11,7 @@ import FormContainer from "../../components/FormContainer/FormContainer";
 import { Loader } from "../../components/UI Handler/Loader/Loader";
 import { Message } from "../../components/UI Handler/Message/Message";
 import { PRODUCT_UPDATE_RESET } from "../../constants/productConstants";
+import { axiosClient } from "../../utils/axiosClient";
 
 const ProductEditScreen = ({ match, history }) => {
   const productId = match.params.id;
@@ -68,7 +69,7 @@ const ProductEditScreen = ({ match, history }) => {
         },
       };
 
-      const { data } = await axiosClientpost("/api/upload", formData, config);
+      const { data } = await axiosClient.post("/api/upload", formData, config);
 
       setImage(data);
       setUploading(false);
