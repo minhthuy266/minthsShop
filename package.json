@@ -15,11 +15,12 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "engines": {
-    "node": "18.4.2"
+    "node": "18.14.2"
   },
   "author": "Thuy Nguyen",
   "license": "ISC",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.5.3",
     "colors": "^1.4.0",
