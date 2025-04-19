@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosClient = axios.create({
-  // baseURL: "https://minths-shop-api.onrender.com/",
+  baseURL: "https://minths-shop-api.onrender.com/",
 
-  baseURL: "http://localhost:5000",
+  // baseURL: "http://localhost:5000",
 });

@@ -20,7 +20,7 @@
   "author": "Thuy Nguyen",
   "license": "ISC",
   "dependencies": {
-    "@reduxjs/toolkit": "^1.9.3",
+    "@reduxjs/toolkit": "^2.7.0",
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.5.3",
     "colors": "^1.4.0",
